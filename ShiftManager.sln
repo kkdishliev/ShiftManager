@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{016BD330-F05C-4E4C-9520-7F9D95B80800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E3D372AC-BEB6-4517-BD62-1267350AE312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftManager.API", "src\ShiftManager.API\ShiftManager.API.csproj", "{F6CC1E60-8311-4F25-846B-BC1F557437E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftManager.Infrastructure", "src\ShiftManager.Infrastructure\ShiftManager.Infrastructure.csproj", "{1B074B83-4F0F-4326-A2E6-F5E1572F52E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftManager.Domain", "src\ShiftManager.Domain\ShiftManager.Domain.csproj", "{DF15314B-B297-40F8-98F5-9A6BACFB7F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftManager.Application", "src\ShiftManager.Application\ShiftManager.Application.csproj", "{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftManager.Common", "src\ShiftManager.Common\ShiftManager.Common.csproj", "{C42D1735-2363-499F-9DA2-AFAA62F07943}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CC1E60-8311-4F25-846B-BC1F557437E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CC1E60-8311-4F25-846B-BC1F557437E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CC1E60-8311-4F25-846B-BC1F557437E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CC1E60-8311-4F25-846B-BC1F557437E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B074B83-4F0F-4326-A2E6-F5E1572F52E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B074B83-4F0F-4326-A2E6-F5E1572F52E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B074B83-4F0F-4326-A2E6-F5E1572F52E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B074B83-4F0F-4326-A2E6-F5E1572F52E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF15314B-B297-40F8-98F5-9A6BACFB7F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF15314B-B297-40F8-98F5-9A6BACFB7F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF15314B-B297-40F8-98F5-9A6BACFB7F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF15314B-B297-40F8-98F5-9A6BACFB7F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42D1735-2363-499F-9DA2-AFAA62F07943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42D1735-2363-499F-9DA2-AFAA62F07943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42D1735-2363-499F-9DA2-AFAA62F07943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42D1735-2363-499F-9DA2-AFAA62F07943}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6CC1E60-8311-4F25-846B-BC1F557437E0} = {016BD330-F05C-4E4C-9520-7F9D95B80800}
+		{1B074B83-4F0F-4326-A2E6-F5E1572F52E8} = {016BD330-F05C-4E4C-9520-7F9D95B80800}
+		{DF15314B-B297-40F8-98F5-9A6BACFB7F40} = {016BD330-F05C-4E4C-9520-7F9D95B80800}
+		{1F8B52BD-CFF1-413E-9DB8-5C517239D6AA} = {016BD330-F05C-4E4C-9520-7F9D95B80800}
+		{C42D1735-2363-499F-9DA2-AFAA62F07943} = {016BD330-F05C-4E4C-9520-7F9D95B80800}
+	EndGlobalSection
+EndGlobal
